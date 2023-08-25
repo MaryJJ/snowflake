@@ -1,0 +1,42 @@
+{
+	"folders": {},
+	"connections": {
+		"snowflake_jdbc-18a2c717131-c43c41bf6924c38": {
+			"provider": "snowflake",
+			"driver": "snowflake_jdbc",
+			"name": "SMARTIEPANTS",
+			"save-password": true,
+			"virtual-model-id": "snowflake_jdbc-18a2c200c21-4fcb4212f12776ca",
+			"configuration": {
+				"host": "dla20275.snowflakecomputing.com",
+				"port": "443",
+				"server": "SMARTIEPANTS",
+				"database": "SMARTIEPANTS",
+				"url": "jdbc:snowflake://dla20275.snowflakecomputing.com:443/?db\u003dSMARTIEPANTS\u0026warehouse\u003dSMARTIEPANTS",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "snowflake_snowflake",
+				"auth-properties": {
+					"role": "ACCOUNTADMIN"
+				}
+			},
+			"custom-properties": {
+				"ddString": "false"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
